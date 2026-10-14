@@ -20,6 +20,12 @@ This project strictly adheres to the **MVC (Model-View-Controller)** architectur
 
 The implementation of the **DAO pattern** guarantees that all direct database interactions are isolated from the business logic and user interface, promoting high maintainability and security against SQL injection through `PreparedStatement`.
 
+## ⚙️ How to Run
+1. Set up a local MySQL server.
+2. Execute the SQL script provided in the `Base de Datos` folder to create the tables.
+3. Download the latest `.jar` from the **Releases** section.
+4. Run the application (ensure your MySQL server is active).
+
 ## 👨‍💻 Author
 
 **Marco Almendarez**  
